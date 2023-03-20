@@ -51,6 +51,16 @@
 						>
 					</li>
 				</ul>
+				<!-- --------------Burger menu--------------- -->
+				<button
+					class="menu-toggle js-open-menu"
+					aria-expanded="false"
+					aria-controls="mobile-menu"
+				>
+					<svg class="burger-icon-open" width="24" height="24">
+						<use href="./images/symbol-defs.svg#icon-menu-hamburger"></use>
+					</svg>
+				</button>
 			</div>
 		</header>
 		<main>
@@ -551,7 +561,7 @@
 						</li>
 					</ul>
 				</div>
-				<div>
+				<div class="footer-form-block">
 					<h2 class="footer-title">Subscribe</h2>
 					<form class="footer-form">
 						<input
@@ -580,9 +590,7 @@
 					</svg>
 				</button>
 				<!-- --------------Form--------------- -->
-				<p class="form-title"
-					>Leave your contacts and we will call you back</p
-				>
+				<p class="form-title">Leave your contacts and we will call you back</p>
 				<form
 					class="modal-form"
 					name="signup_form"
@@ -655,7 +663,87 @@
 				</form>
 			</div>
 		</div>
+		<!-- --------------Burger menu--------------- -->
+		<div class="menu-container js-menu-container" id="mobile-menu">
+			<button class="menu-toggle js-close-menu">
+				<svg class="modal-icon" width="8" height="8">
+						<use href="./images/symbol-defs.svg#icon-close"></use>
+					</svg>
+			</button>
+			<nav class="header-navigation">
+				<ul class="header-list list">
+					<li class="heder-item">
+						<a href="./index.html" class="header-link current link">Studio</a>
+					</li>
+					<li class="heder-item">
+						<a href="./portfolio.html" class="header-link link">Portfolio</a>
+					</li>
+					<li class="heder-item">
+						<a href="/" class="header-link link">Contacts</a>
+					</li>
+				</ul>
+			</nav>
+			<ul class="header-contact list">
+				<li class="contact-item">
+					<a href="mailto:info@devstudio.com" class="header-mail link"
+						>info@devstudio.com</a
+					>
+				</li>
+				<li class="contact-item">
+					<a href="tel:+110001111111" class="header-tel link"
+						>+11 (000) 111-11-11</a
+					>
+				</li>
+			</ul>
+			<ul class="team-social-list list">
+				<li class="team-sicial-item">
+					<a
+						href="/"
+						class="team-social-link link"
+						target="_blank"
+						rel="noopener noreferrer nofollow"
+						><svg class="team-social-icon" width="16" height="16">
+							<use href="./images/symbol-defs.svg#icon-instagram"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="team-sicial-item">
+					<a
+						href="/"
+						class="team-social-link link"
+						target="_blank"
+						rel="noopener noreferrer nofollow"
+						><svg class="team-social-icon" width="16" height="16">
+							<use href="./images/symbol-defs.svg#icon-twitter"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="team-sicial-item">
+					<a
+						href="/"
+						class="team-social-link link"
+						target="_blank"
+						rel="noopener noreferrer nofollow"
+						><svg class="team-social-icon" width="16" height="16">
+							<use href="./images/symbol-defs.svg#icon-facebook"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="team-sicial-item">
+					<a
+						href="/"
+						class="team-social-link link"
+						target="_blank"
+						rel="noopener noreferrer nofollow"
+						><svg class="team-social-icon" width="16" height="16">
+							<use href="./images/symbol-defs.svg#icon-linkedin"></use>
+						</svg>
+					</a>
+				</li>
+			</ul>
+		</div>
 
 		<script src="./js/modal.js"></script>
+		<script src="./js/mobile-menu.js"></script>
 	</body>
 </html>
