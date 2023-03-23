@@ -391,7 +391,7 @@ body {
 }
 
 .team-item:not(:last-child) {
-  margin-bottom: 72px;
+	margin-bottom: 72px;
 }
 
 .team-content {
@@ -445,7 +445,7 @@ body {
 /* -------------company------------- */
 
 .company {
-	padding-top: 130px;
+	padding-top: 96px;
 }
 
 .company-title {
@@ -459,13 +459,21 @@ body {
 }
 
 .company-list {
-	/* display: flex;
-	gap: 24px; */
+	display: flex;
+	flex-wrap: wrap;
+
+	margin: 0 -8px;
 }
 
 .company-item {
-	width: 168px;
+	margin: 0 8px;
+
+	width: calc((100% - 2 * 16px) / 2);
 	height: 88px;
+}
+
+.company-item:nth-child(-n + 4) {
+	margin-bottom: 72px;
 }
 
 .company-link {
