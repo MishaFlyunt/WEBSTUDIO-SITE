@@ -364,6 +364,8 @@ body {
 
 .team {
 	background-color: var(--bg-btn-foot-color);
+
+	padding: 96px 0 128px;
 }
 
 .team-title {
@@ -374,20 +376,13 @@ body {
 	text-align: center;
 	letter-spacing: 0.02em;
 	font-weight: 700;
-	text-transform: capitalize;
 	color: var(--primary-text-bg-color);
 }
 
-.team-list {
-	/* display: flex;
-	flex-wrap: wrap; */
-	/* якщо добавиться контент */
-	/* gap: 24px; */
-}
-
 .team-item {
-	width: calc((100%-72px) / 4);
 	max-width: 264px;
+
+	margin: 0 auto;
 
 	background: var(--primary-bg-color);
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -395,9 +390,9 @@ body {
 	border-radius: 0px 0px 4px 4px;
 }
 
-/* .team-item:nth-child(-n + 3) {
-  margin-right: 24px;
-} */
+.team-item:not(:last-child) {
+  margin-bottom: 72px;
+}
 
 .team-content {
 	text-align: center;

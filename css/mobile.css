@@ -9,43 +9,6 @@
 
 	/* --------------TEAM-------------- */
 
-	.team {
-		background-color: var(--bg-btn-foot-color);
-	}
-
-	.team-title {
-		margin-bottom: 72px;
-
-		font-size: 36px;
-		line-height: 1.11;
-		text-align: center;
-		letter-spacing: 0.02em;
-		font-weight: 700;
-		text-transform: capitalize;
-		color: var(--primary-text-bg-color);
-	}
-
-	.team-list {
-		/* display: flex;
-	flex-wrap: wrap; */
-		/* якщо добавиться контент */
-		/* gap: 24px; */
-	}
-
-	.team-item {
-		width: calc((100%-72px) / 4);
-		max-width: 264px;
-
-		background: var(--primary-bg-color);
-		box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-			0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-		border-radius: 0px 0px 4px 4px;
-	}
-
-	/* .team-item:nth-child(-n + 3) {
-  margin-right: 24px;
-} */
-
 	.team-content {
 		text-align: center;
 		padding: 32px 0;

@@ -74,7 +74,7 @@
 
 		padding-top: 0;
 	}
-	
+
 	.working {
 		text-align: center;
 	}
@@ -116,26 +116,13 @@
 	/* --------------TEAM-------------- */
 
 	.team {
-		background-color: var(--bg-btn-foot-color);
-	}
-
-	.team-title {
-		margin-bottom: 72px;
-
-		font-size: 36px;
-		line-height: 1.11;
-		text-align: center;
-		letter-spacing: 0.02em;
-		font-weight: 700;
-		text-transform: capitalize;
-		color: var(--primary-text-bg-color);
+		padding: 120px 0;
 	}
 
 	.team-list {
-		display: flex;
+		/* display: flex;
 		flex-wrap: wrap;
-		/* якщо добавиться контент */
-		gap: 24px;
+		gap: 24px; */
 	}
 
 	.team-item {
