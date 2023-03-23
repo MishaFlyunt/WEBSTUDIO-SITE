@@ -143,28 +143,27 @@
 
 	.footer .container {
 		display: flex;
+		flex-wrap: wrap;
 	}
 
 	.footer-block {
-		margin-right: 120px;
+		margin: 0 24px 72px 0;
 	}
 
 	.footer-logo {
-		display: block;
-		margin-bottom: 16px;
+		margin: 0 auto 16px 0;
 	}
 
 	.footer-sicial-block {
-		margin-right: 80px;
+		margin-right: 0;
 	}
 
 	.footer-title {
-		margin-bottom: 16px;
+		text-align: start;
+	}
 
-		font-weight: 500;
-		font-size: 16px;
-		line-height: 1.5;
-		color: var(--hero-title-text-color);
+	.footer-form-block{
+		display: block;
 	}
 
 	.footer-form {
@@ -174,12 +173,10 @@
 
 	.footer-input {
 		width: 264px;
-		padding-left: 16px;
+
+		margin-bottom: 0;
 	}
 
-	.form-btn {
-		
-	}
 
 	/* --------------Modal--------------- */
 

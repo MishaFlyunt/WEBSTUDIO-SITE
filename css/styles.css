@@ -89,7 +89,8 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
 	.team .container,
-	.company .container {
+	.company .container,
+	.footer .container {
 		width: 584px;
 	}
 }
@@ -598,9 +599,10 @@ body {
 
 .footer-input {
 	width: 100%;
+	height: 40px;
 
 	margin-bottom: 16px;
-
+	padding-left: 16px;
 	background-color: var(--primary-text-bg-color);
 
 	border-radius: 4px;
@@ -1027,4 +1029,3 @@ body {
 	font-weight: 500;
 	color: var(--description-tel-mail-color);
 }
-
