@@ -111,19 +111,14 @@
 		padding: 96px 0 104px;
 	}
 
-	.team .container {
-		width: 584px;
-	}
-
 	.team-list {
 		display: flex;
 		flex-wrap: wrap;
-		/* justify-content: center; */
 		column-gap: 24px;
 	}
 
 	.team-item {
-		width: calc((100%-24px) / 2);
+		width: calc((100% - 24px) / 2);
 		margin: 0;
 	}
 
@@ -136,10 +131,6 @@
 	}
 
 	/* -------------company------------- */
-	
-	.company .container {
-		width: 584px;
-	}
 
 	.company-item {
 		width: calc((100% - 48px) / 3);

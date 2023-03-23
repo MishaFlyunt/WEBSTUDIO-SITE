@@ -120,7 +120,7 @@
 	}
 
 	.team-item {
-		width: calc((100%-72px) / 4);
+		width: calc((100% - 72px) / 4);
 	}
 
 	.team-item:nth-child(-n + 2) {
@@ -134,13 +134,16 @@
 	}
 
 	.company-list {
-		display: flex;
 		gap: 24px;
 	}
 
 	.company-item {
 		width: 168px;
 		height: 88px;
+	}
+
+	.company-item:nth-child(n + 1) {
+		margin-bottom: 0;
 	}
 
 	/* ----------FOOTER---------- */

@@ -84,6 +84,13 @@ body {
 	}
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+	.team .container,
+	.company .container {
+		width: 584px;
+	}
+}
+
 @media screen and (min-width: 1200px) {
 	.container {
 		width: 1158px;
