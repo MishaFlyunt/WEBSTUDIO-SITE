@@ -406,16 +406,8 @@
 
 	/* ----------Картки послуг------- */
 
-	/* .benefits-list {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 48px;
-		column-gap: 24px;
-	} */
-
 	.benefits-item {
-		width: calc((100%-48px) / 3);
-		/* max-width: 360px; */
+		width: calc((100% - 48px) / 3);
 	}
 
 	.benefits-item:nth-last-child(-n + 3) {
