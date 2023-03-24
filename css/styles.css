@@ -682,7 +682,7 @@ body {
 .modal {
 	padding: 72px 16px 24px;
 
-	max-width: 408px;
+	min-width: 310px;
 	height: 584px;
 
 	border-radius: 4px;
