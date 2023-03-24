@@ -142,6 +142,8 @@ body {
 	display: none;
 }
 
+/* -----burger menu----- */
+
 .menu-toggle {
 	display: flex;
 	align-items: center;
@@ -236,7 +238,7 @@ body {
 	padding: 20px 0;
 
 	font-weight: 700;
-	font-size: 36px;
+	font-size: 26px;
 	line-height: 1.11;
 
 	color: var(--primary-text-bg-color);
@@ -252,7 +254,7 @@ body {
 
 .burger-tel {
 	font-weight: 600;
-	font-size: 36px;
+	font-size: 24px;
 	line-height: 1.11;
 
 	color: var(--accent-color);
@@ -260,7 +262,7 @@ body {
 
 .burger-mail {
 	font-weight: 500;
-	font-size: 20px;
+	font-size: 16px;
 	line-height: 1.2;
 
 	color: var(--description-tel-mail-color);
@@ -678,9 +680,9 @@ body {
 }
 
 .modal {
-	padding: 72px 24px 24px;
+	padding: 72px 16px 24px;
 
-	width: 408px;
+	max-width: 408px;
 	height: 584px;
 
 	border-radius: 4px;
