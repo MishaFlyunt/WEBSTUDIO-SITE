@@ -162,8 +162,8 @@ body {
 .menu-container {
 	padding: 40px;
 
-	min-width: 428px;
-	min-height: 796px;
+	width: 100vw;
+	height: 100vh;
 
 	position: fixed;
 	top: 0;
