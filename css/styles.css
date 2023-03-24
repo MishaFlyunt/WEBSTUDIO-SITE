@@ -802,7 +802,7 @@ body {
 
 .textarea {
 	display: block;
-	height: 120px;
+	height: 100px;
 
 	padding: 8px 16px;
 
@@ -825,8 +825,8 @@ body {
 	display: flex;
 	align-items: baseline;
 
-	font-size: 12px;
-	line-height: 1.33;
+	font-size: 9px;
+	line-height: 1.23;
 	letter-spacing: 0.04em;
 
 	color: #757575;
@@ -874,7 +874,7 @@ body {
 	margin: 0 auto;
 
 	width: 169px;
-	padding: 16px 32px;
+	padding: 14px 30px;
 
 	color: var(--hero-title-text-color);
 	background-color: var(--accent-color);

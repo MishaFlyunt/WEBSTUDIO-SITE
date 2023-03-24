@@ -1,6 +1,6 @@
 @media screen and (min-width: 480px) {
 	/* --------------Header-------------- */
-	
+
 	.burger-link {
 		font-size: 36px;
 	}
@@ -20,4 +20,17 @@
 	}
 
 	/* --------------Form--------------- */
+
+	.textarea {
+		height: 120px;
+	}
+
+	.form-label-checkbox {
+		font-size: 12px;
+		line-height: 1.33;
+	}
+
+	.modal-form-btn {
+	padding: 16px 32px;
+}
 }
