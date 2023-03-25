@@ -74,7 +74,7 @@ body {
 	}
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 	.team .container {
 		max-width: 296px;
 	}
@@ -715,9 +715,10 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
-	width: 24px;
-	height: 24px;
+	
+	padding: 8px;
+	min-width: 24px;
+	min-height: 24px;
 	border-radius: 50%;
 
 	background-color: #e7e9fc;
@@ -1032,4 +1033,26 @@ body {
 .benefits-description {
 	font-weight: 500;
 	color: var(--description-tel-mail-color);
+}
+
+@media screen and (min-width: 480px) {
+	/* --------------Header-------------- */
+
+	.burger-link {
+		font-size: 36px;
+	}
+
+	.burger-tel {
+		font-size: 36px;
+	}
+
+	.burger-mail {
+		font-size: 20px;
+	}
+
+	/* --------------Modal--------------- */
+
+	.modal {
+		width: 408px;
+	}
 }
