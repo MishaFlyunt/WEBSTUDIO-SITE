@@ -202,9 +202,8 @@ body {
 
 	margin-left: auto;
 	margin-bottom: 16px;
+	padding: 8px;
 
-	width: 24px;
-	height: 24px;
 	border-radius: 50%;
 
 	background-color: #e7e9fc;
@@ -710,15 +709,14 @@ body {
 .btn-icon {
 	position: absolute;
 	top: 24px;
-	right: 24px;
+	right: 16px;
 
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
+
 	padding: 8px;
-	min-width: 24px;
-	min-height: 24px;
+	
 	border-radius: 50%;
 
 	background-color: #e7e9fc;
