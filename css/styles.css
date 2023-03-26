@@ -834,6 +834,7 @@ body {
 .form-label-checkbox {
 	display: flex;
 	align-items: baseline;
+	flex-wrap: wrap;
 
 	font-size: 12px;
 	line-height: 1.33;
